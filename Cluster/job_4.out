@@ -1,0 +1,25 @@
+We have a maximum of 4 tasks at our disposition
+In the case of equal size we divide the processes as 2 and 2
+Time Elapsed:  1501.3343324661255
+MLUPS: 4.2298373271519685
+Time Elapsed:  1501.3035447597504
+MLUPS: 4.229924069763145
+Time Elapsed:  1501.333884716034
+MLUPS: 4.229838588636884
+Time Elapsed:  1501.3339140415192
+MLUPS: 4.2298385060156445
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n[001-002]
+Job ID: 23138483
+Cluster: uc2
+User/Group: fr_rk311/fr_fr
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 80
+CPU Utilized: 01:39:54
+CPU Efficiency: 2.41% of 2-20:58:40 core-walltime
+Job Wall-clock time: 00:25:52
+Memory Utilized: 405.22 MB
+Memory Efficiency: 0.23% of 175.78 GB

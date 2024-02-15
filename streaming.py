@@ -22,7 +22,7 @@ def main() -> None:
     time_steps = 10
 
     field = LatticeBoltzmann(grid_x=x_grid, grid_y=y_grid)
-    field.update(f_new=1.01, i=x_grid//2, j=y_grid//2)
+    field.update_f(f_new=1.01, i=x_grid//2, j=y_grid//2)
     for i in range(time_steps):
         field.streaming()
         field.update_rho()
